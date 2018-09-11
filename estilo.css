@@ -45,6 +45,7 @@ h2.vertical {
     color: #333;
     font-weight: bold;
     margin-top: 310px;
+    cursor: vertical-text;
 }
 
 main {
