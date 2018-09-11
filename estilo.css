@@ -1,2 +1,132 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+body {
+    margin: 0;
+}
+
+footer {
+    padding: 46px 15px 25px 0px;
+}
+
+footer img {
+    display: block;
+    margin-left: auto; 
+}
+
+header {
+    width: 646px;
+    margin: 0 auto 0 154px;
+}
+
+h1 {
+    font-family: Ravie;
+    font-size: 36px;
+    color: #e90c0c;
+    margin-bottom: 0px;
+}
+
+h1 ~ h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+h1 ~ h2 > span {
+    color: #d027aa;
+}
+
+h2.vertical {
+    transform: rotate(-90deg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 310px;
+}
+
+main {
+    width: 810px;
+    margin: 0 auto;
+    background-image: linear-gradient(#f6f1b2, #4599b2);
+    padding-top: 17px;
+    border: 1px solid #c3c3c3;
+    position: relative;
+}
+
+section#cardapio {
+    width: 646px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255, 20%);
+    line-height: 2em;
+    box-sizing: border-box;
+    border: 1px solid #aac0ae;
+    padding: 1em 1em 2em 1em;
+    margin-left: 154px;
+}
+
+section#cardapio h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0;
+}
+
+section#cardapio li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+span.preco {
+    float: right;
+}
+
+#ticket {
+    position: fixed;
+    top: 295px;
+    left: -70px;
+    transition: left 100ms ease-out;
+}
+
+#ticket:hover {
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    width: 154px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    float: left;
+    top: 0;
+    bottom: 0;
+}
+
+aside img{
+    position: absolute;
+}
+
+aside img[src="images/siri.png"] {
+    left: -10px;
+}
+
+aside img[src="images/bolhas.png"] {
+    right: 20px;
+    bottom: 125px;
+}
+
+aside img[src="images/peixe.png"] {
+    left: -44px;
+    bottom: 0;
+}
